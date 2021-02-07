@@ -1,0 +1,22 @@
+package car;
+
+public class car {
+
+	String carName;
+	int first_release;
+	String price;
+
+	public void showcarinfor() {
+		System.out.println(carName + ", " + first_release + ", " + price);
+	}
+
+	public static void main(String[] args) {
+		car carfield = new car();
+
+		carfield.carName = "람보르기니";
+		carfield.first_release = 1964;
+		carfield.price = "2억 5천만원";
+
+		carfield.showcarinfor();
+	}
+}
