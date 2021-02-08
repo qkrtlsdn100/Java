@@ -1,0 +1,13 @@
+package constructor;
+
+public class Person_test {
+	public static void main(String[] args) {
+		Person person = new Person();
+		person.yourName = "박짱구";
+		person.height = 150;
+		person.weight = 40;
+		
+		person.showyourinfor();
+	}
+	
+}
