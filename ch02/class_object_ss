@@ -1,0 +1,26 @@
+package Dog;
+
+public class Dog {
+	
+	String Dogname;
+	String Dogbreed;
+	int Dogage;
+	
+	public void Dog(String name, int age) {
+		this.Dogname = name;
+		this.Dogage =  age;
+		
+	}
+	
+	public void Dog(String name, String breed, int age) {
+		this.Dogname = name;
+		this.Dogbreed = breed;
+		this.Dogage = age;
+		
+	}
+	
+	public void showdoginfor(){
+		System.out.println("강아지 이름은 " + Dogname +  " 종은 " + Dogbreed + " 나이는 " + Dogage);
+	}
+		
+}
