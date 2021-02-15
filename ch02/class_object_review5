@@ -1,0 +1,38 @@
+package review;
+
+public class Student {
+	
+	String studentName;
+	int age;
+	int money;
+	
+	public Student(String studentName, int age, int money) {
+		this.studentName = studentName;
+		this.age = age;
+		this.money = money;
+		
+	}
+	
+	public void taxi(Taxi taxi) {
+		taxi.take(6500);
+		this.money -= 6500;
+		
+	}
+	
+	public void bus(Bus bus) {
+		bus.take(1010);
+		this.money -= 1010;
+		
+	}
+	
+	public void subway(Subway subway) {
+		subway.take(720);
+		this.money -= 720;
+		
+	}
+	
+	public void showstudentinfor() {
+		System.out.println(studentName + "님의 남은 돈은 돈은 " + money + " 입니다");
+	}
+	
+}
