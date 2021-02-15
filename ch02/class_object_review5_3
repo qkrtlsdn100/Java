@@ -1,0 +1,24 @@
+package review;
+
+public class Bus {
+	int busNumber;
+	int money;
+	int geustNumber;
+
+	public Bus(int busNum) {
+		this.busNumber = busNum;
+
+	}
+
+	public void take(int money) {
+		this.money += money;
+		geustNumber++;
+
+	}
+
+	public void showbusinfor() {
+		System.out.println(busNumber + "번의 버스의 수입은 " +  money + "원 이고, 손님은 " + geustNumber + "명 입니다 ");
+		
+	}
+	
+}
