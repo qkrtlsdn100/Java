@@ -1,0 +1,25 @@
+package review;
+
+public class Subway {
+
+	int subwayLine;
+	int money;
+	int geustNumber;
+
+	public Subway(int subwayLine) {
+		this.subwayLine = subwayLine;
+
+	}
+
+	public void take(int money) {
+		this.money += money;
+		geustNumber++;
+
+	}
+
+	public void showsubwayinfor() {
+		System.out.println("지하철 " + subwayLine + "호선의 수입은 " + money + "원 이고, 손님은 " + geustNumber + "명 입니다 ");
+		
+	}
+	
+}
