@@ -1,0 +1,22 @@
+package review;
+
+public class review {
+	public static void main(String[] args) {
+
+		String[] proLan = { "Java", "Javascript", "파이썬", "C", "PHP"};
+
+		for (String a : proLan) {
+			System.out.println(a);
+
+		}
+
+		int[] arr = { 1, 2, 3, 4, 5 };
+
+		for (int b : arr) {
+			System.out.println(b);
+		}
+		
+		
+		
+	}
+}
