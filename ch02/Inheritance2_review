@@ -1,0 +1,40 @@
+package Employee;
+
+public class employee {
+	
+	protected String employeeName;
+	protected String employeeRank;
+	protected String Department;
+	
+	public employee(String employname, String employeerank, String department) {
+		this.employeeName = employname;
+		this.employeeRank = employeerank;
+		this.Department = department;
+		
+	}
+
+	public String getEmployeeName() {
+		return employeeName;
+	}
+
+	public void setEmployeeName(String employeeName) {
+		this.employeeName = employeeName;
+	}
+
+	public String getEmployeeRank() {
+		return employeeRank;
+	}
+
+	public void setEmployeeRank(String employeerank) {
+		this.employeeRank = employeerank;
+	}
+
+	public String getDepartment() {
+		return Department;
+	}
+
+	public void setDepartment(String department) {
+		this.Department = department;
+	}
+	
+}
