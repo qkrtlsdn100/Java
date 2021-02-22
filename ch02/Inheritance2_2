@@ -1,0 +1,22 @@
+package Inheritance;
+
+public class VIPCustomer extends Customer{
+	
+	
+	private int agentID;
+	private double slaeRatio;
+	
+	
+	public VIPCustomer() {
+		
+		customerGrade = "VIP";
+		bounsRatio = 0.05;
+		slaeRatio = 0.1;
+		bonusPoint = 1000;
+		
+	}
+
+	public int getAgentID() {
+		return agentID;
+	}
+}
