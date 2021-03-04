@@ -1,0 +1,28 @@
+package firstDay_School;
+
+public class Sophomore extends StudentInfo {
+
+	@Override
+	public void studentClass() {
+		System.out.println("2반 입니다");
+
+	}
+
+	@Override
+	public void studentID() {
+		System.out.println("9번 입니다");
+
+	}
+
+	@Override
+	public void studentName() {
+		System.out.println("박신우 입니다");
+
+	}
+
+	@Override
+	public void showStudent() {
+		System.out.println("1학년 반, 번호, 이름");
+	}
+
+}
