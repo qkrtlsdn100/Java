@@ -1,0 +1,27 @@
+package firstDay_School;
+
+public class Student {
+	
+	private StudentInfo grade;
+	
+	public Student() {
+		grade = new Sophomore();
+		grade.showStudent();
+	}
+
+	public StudentInfo getGrade() {
+		return grade;
+	}
+
+	public void grade(StudentInfo grade) {
+		this.grade = grade;
+		grade.showStudent();
+		
+	}
+
+	public void sophomore(int count) {
+		grade.go(count);
+		
+	}
+
+}
