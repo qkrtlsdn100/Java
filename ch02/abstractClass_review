@@ -1,0 +1,22 @@
+package firstDay_School;
+
+public abstract class StudentInfo {
+	
+	public abstract void studentClass();
+	public abstract void studentID();
+	public abstract void studentName();
+	public abstract void showStudent();
+	
+	final public void go(int count) {
+		studentClass();
+		
+		for (int i = 0; i < count; i++) {
+			studentID();
+		}
+		
+		studentName();
+		
+	}
+	
+	
+}
