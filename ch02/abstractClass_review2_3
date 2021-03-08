@@ -1,0 +1,15 @@
+package Animals;
+
+public class animalsTest {
+	
+	public static void main(String[] args) {
+	
+		cat cat = new cat();
+		dog dog = new dog();
+		
+		cat.go();
+		System.out.println("\n");
+		dog.go();
+	}
+	
+}
