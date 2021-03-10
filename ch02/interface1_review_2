@@ -1,0 +1,18 @@
+package review;
+
+public class avatarTest {
+	
+	public static void main(String[] args) {
+		
+		avatar avatar = new avatar();
+		
+		int num1 = 10;
+		int num2 = 2;
+		
+		System.out.println(avatar.add(num1, num2));
+		System.out.println(avatar.sub(num1, num2));
+		System.out.println(avatar.mul(num1, num2));
+		System.out.println(avatar.div(num1, num2));
+	}
+	
+}
