@@ -1,0 +1,18 @@
+package generics;
+
+public class TreeDPrinterTest {
+	
+	public static void main(String[] args) {
+		
+		TreeDPrinter<Powder> printer = new TreeDPrinter<Powder>();
+		printer.setMaterial(new Powder());
+		Powder powder = (Powder)printer.getMaterial();
+		System.out.println(printer);
+		
+		TreeDPrinter<Plastic> printerPlasic = new TreeDPrinter<Plastic>();
+		printer.setMaterial(new Plastic());
+		Powder plastic = (Powder)printer.getMaterial();
+		System.out.println(printer);
+	}
+	
+}
