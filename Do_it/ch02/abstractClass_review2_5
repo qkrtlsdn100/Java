@@ -1,0 +1,35 @@
+package Animals;
+
+public class dog extends animalsInfo{
+
+	@Override
+	public void eat() {
+		System.out.println("개 사료를 먹고 있습니다.");
+		
+	}
+
+	@Override
+	public void walk() {
+		System.out.println("산책을 천천히 하고 있습니다.");
+		
+	}
+
+	@Override
+	public void run() {
+		System.out.println("달리고 있습니다.");
+		
+	}
+
+	@Override
+	public void sleep() {
+		System.out.println("잠이 들었습니다.");
+		
+	}
+
+	@Override
+	public void animalsInfor() {
+		System.out.println("====== 개의 일상 ======");
+		
+	}
+
+}

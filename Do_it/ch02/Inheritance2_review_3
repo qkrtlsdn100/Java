@@ -1,0 +1,12 @@
+package Employee;
+
+public class employeeTest {
+	
+	public static void main(String[] args) {
+		
+		employeeNum employee = new employeeNum("박신우", "신입사원", "개발", 15000);
+		employee.showEmploymentInfor();
+		
+	}
+	
+}

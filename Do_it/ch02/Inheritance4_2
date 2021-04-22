@@ -1,0 +1,21 @@
+package witharraylist;
+
+public class GoldCustomer extends Customer{
+	
+	double saleRatio;
+	
+	public GoldCustomer(int customerID, String customerName) {
+		super(customerID, customerName);
+		
+		customerGrade = "Gold";
+		bounsRatio = 0.02;
+		
+	}
+	
+	public int calcPrice(int price) {
+		bounsRatio += price * bonusPoint;
+		return price - (int)(price * saleRatio);
+		 
+	} 
+	
+}

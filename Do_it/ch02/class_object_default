@@ -1,0 +1,43 @@
+package constructor_overload;
+
+public class Person {
+	String your_name;
+	float height;
+	float weight;
+
+	public Person() {
+
+	}
+
+	public Person(String Pname, float Pheight, float Pweight) {
+		your_name = Pname;
+		height = Pheight;
+		weight = Pweight;
+	}
+
+	public void showyourinfor() {
+		System.out.println(your_name + " " + height + " " + weight);
+	}
+
+}
+
+
+---------------------------------------------------------------------------
+package constructor_overload;
+
+public class Person_test {
+	public static void main(String[] args) {
+		Person person = new Person("신짱구",150,40);
+		
+		person.showyourinfor();
+		
+		Person human = new Person();
+		human.your_name = "김철수";
+		human.height = 151;
+		human.weight = 45;
+		
+		human.showyourinfor();
+	}
+}
+
+

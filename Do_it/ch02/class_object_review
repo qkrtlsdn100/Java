@@ -1,0 +1,19 @@
+package class_object_review;
+
+public class class_object_review {
+	String yourName;
+	int age;
+	String nowLocation;
+	
+	public void showyouinfor() {
+		System.out.println(yourName + " " + age + " " + nowLocation);
+	}
+	public static void main(String[] args) {
+		class_object_review review = new class_object_review();
+		review.yourName = "박신우";
+		review.age = 19;
+		review.nowLocation = "서울";
+		
+		review.showyouinfor();
+	}
+}

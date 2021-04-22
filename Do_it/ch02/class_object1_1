@@ -1,0 +1,22 @@
+package student;
+
+public class class_object1_1 {
+	
+	int studentID;
+	String studentName;
+	int grade;
+	String address;
+	
+	public void showstudentinfor() {
+		System.out.println(studentName + ", " + address);
+	}
+	
+	public static void main(String[] args) {
+		
+		class_object1_1 studentLee = new class_object1_1();
+		studentLee.studentName = "이순신";
+		studentLee.address = "서울시 송파구 가락동";
+		
+		studentLee.showstudentinfor();
+	}
+}

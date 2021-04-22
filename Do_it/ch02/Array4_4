@@ -1,0 +1,24 @@
+package Array;
+
+public class StudentTest {
+	
+	public static void main(String[] args) {
+		
+		Student studentSin = new Student(1001, "Sin");
+		studentSin.addSubject("국어", 100);
+		studentSin.addSubject("수학", 90);
+		
+		studentSin.showStudentinfor();
+		
+		System.out.println();
+		
+		Student studentWoo = new Student(1002, "Woo");
+		studentWoo.addSubject("국어", 100);
+		studentWoo.addSubject("수학", 90);
+		studentWoo.addSubject("영어", 80);
+		
+		studentWoo.showStudentinfor();
+		
+	}
+	
+}

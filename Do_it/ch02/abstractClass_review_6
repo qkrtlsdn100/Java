@@ -1,0 +1,25 @@
+package firstDay_School;
+
+public class Grow_up {
+	
+	public static void main(String[] args) {
+	
+		Student student = new Student();
+		student.sophomore(1);
+		
+		System.out.println();
+		
+		Junior junior = new Junior();
+		student.grade(junior);
+		student.sophomore(2);
+		
+		System.out.println();
+		
+		Senior senior = new Senior();
+		student.grade(senior);
+		student.sophomore(3);
+		
+		
+	}
+	
+}

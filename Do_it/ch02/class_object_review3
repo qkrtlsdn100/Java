@@ -1,0 +1,36 @@
+package review;
+
+public class student {
+	
+	String studentName;
+	int studentID;
+	subject physics;
+	subject chemistry;
+	
+	public student(int ID, String name) {
+		
+		studentID = ID;
+		studentName = name;
+		physics = new subject();
+		chemistry = new subject();
+		
+	}
+	
+	public void setphysics(String name, int score) {
+		physics.setsubjectName(name);
+		physics.setscore(score);
+		
+	}
+	
+	public void setchemistry(String name, int score) {
+		chemistry.setsubjectName(name);
+		chemistry.setscore(score);
+		
+	}
+	
+	public void showstudentinfor() {
+		int total = physics.getscore() + chemistry.getscore();
+		System.out.println(studentName + "님은 총점은 " + total + "점 입니다");
+	}
+	
+}

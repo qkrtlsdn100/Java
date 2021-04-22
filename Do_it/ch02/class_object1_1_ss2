@@ -1,0 +1,23 @@
+package human;
+
+public class human_field {
+
+	int age;
+	String humanName;
+	String address;
+	String birth;
+
+	public void showhumaninfor() {
+		System.out.println(age + " " + humanName + " " + address + " " + birth);
+	}
+
+	public static void main(String[] args) {
+		human_field human = new human_field();
+		human.age = 19;
+		human.humanName = "박신우";
+		human.address = "서울시 송파구 가락동";
+		human.birth = "2003년 8월 14일";
+
+		human.showhumaninfor();
+	}
+}

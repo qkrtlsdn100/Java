@@ -1,0 +1,16 @@
+package staticex;
+
+public class StudentTest1 {
+	
+	public static void main(String[] args) {
+		
+		System.out.println(Student.getsetialNum());
+		
+		Student studentSin = new Student();
+		System.out.println(studentSin.getsetialNum());
+		
+		Student studentWoo = new Student();
+		System.out.println(studentWoo.studentID);
+		
+	}
+}

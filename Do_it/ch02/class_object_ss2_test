@@ -1,0 +1,15 @@
+  package Person;
+
+public class personTest {
+	public static void main(String[] args) {
+		
+		person personinfor = new person();
+		
+		personinfor.PersonName = "박신우";
+		personinfor.age = 19;
+		personinfor.phonenumber = "010 - **** - ****";
+		personinfor.email = "qkrtlsdn100@daum.net";
+		
+		personinfor.showpersoninfor();
+	}
+}
