@@ -1,0 +1,28 @@
+100 이하의 두 개의 정수를 입력받아 작은 수부터 큰 수까지 차례대로 출력하는 프로그램을 작성하시오.
+
+입력 예)
+10 5
+
+출력 예)
+5 6 7 8 9 10
+
+
+import java.util.Scanner;
+
+public class repeat_control_2_ev_2 {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int a = scan.nextInt();
+		int b = scan.nextInt();
+
+		if (a < 100 && b < 100) {
+			int min = a < b ? a : b;
+			if (a > b) {
+				for (int i = b; i <= a; i++) {
+					System.out.print(b + " ");
+					b++;
+				}
+			}
+		}
+	}
+}
